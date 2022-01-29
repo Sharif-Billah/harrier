@@ -1,0 +1,97 @@
+[debug] [2022-01-29T18:23:09.580Z] ----------------------------------------------------------------------
+[debug] [2022-01-29T18:23:09.582Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-01-29T18:23:09.582Z] CLI Version:   10.1.2
+[debug] [2022-01-29T18:23:09.582Z] Platform:      win32
+[debug] [2022-01-29T18:23:09.582Z] Node Version:  v14.17.3
+[debug] [2022-01-29T18:23:09.593Z] Time:          Sun Jan 30 2022 00:23:09 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-01-29T18:23:09.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-29T18:23:09.639Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-29T18:23:09.639Z] > authorizing via signed-in user (sharifbillah1998@gmail.com)
+[debug] [2022-01-29T18:23:09.639Z] [iam] checking project harrier-8decd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-01-29T18:23:09.641Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-29T18:23:09.641Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-29T18:23:09.942Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Sat, 29 Jan 2022 18:22:35 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-29T18:23:09.950Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/harrier-8decd:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-01-29T18:23:11.404Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 29 Jan 2022 18:22:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1164","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-29T18:23:11.407Z] > refreshing access token with scopes: []
+[debug] [2022-01-29T18:23:11.408Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-29T18:23:11.646Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 29 Jan 2022 18:22:37 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-29T18:23:11.659Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/harrier-8decd [none]
+[debug] [2022-01-29T18:23:12.147Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/harrier-8decd 200
+[debug] [2022-01-29T18:23:12.147Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/harrier-8decd {"projectId":"harrier-8decd","projectNumber":"742204980858","displayName":"Harrier","name":"projects/harrier-8decd","resources":{"hostingSite":"harrier-8decd"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'harrier-8decd'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-01-29T18:23:12.151Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-29T18:23:12.152Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-29T18:23:12.411Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 29 Jan 2022 18:22:37 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-29T18:23:12.420Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/harrier-8decd/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-01-29T18:23:14.320Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 29 Jan 2022 18:22:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[harrier-8decd]: beginning deploy... 
+[info] i  hosting[harrier-8decd]: found 21 files in build 
+[debug] [2022-01-29T18:23:14.580Z] > refreshing access token with scopes: []
+[debug] [2022-01-29T18:23:14.580Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-29T18:23:14.582Z] [hosting] hash cache [YnVpbGQ] stored for 21 files
+[debug] [2022-01-29T18:23:14.582Z] [hosting][hash queue][FINAL] {"max":240,"min":1,"avg":15.571428571428571,"active":0,"complete":21,"success":21,"errored":0,"retried":0,"total":21,"elapsed":246}
+[debug] [2022-01-29T18:23:14.809Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 29 Jan 2022 18:22:40 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-29T18:23:14.820Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/harrier-8decd/versions/cefc6303fa97053c:populateFiles [none]
+[debug] [2022-01-29T18:23:14.820Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/harrier-8decd/versions/cefc6303fa97053c:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/parts.json":"f6c24249c9bc5081ebfec611ce572e91207cfce2867b3a4e678af188db5332b7","/products.json":"c93d121af46487f5d255d80083248dd40c3dca4ed4379ba47366a25155549637","/reviews.json":"0a640da4ef2101f3d1b117f5593f568d9367e0a274f34f7849400258364911bc","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/asset-manifest.json":"dc9f059f1ddcb339fba6a5eef4891c1d1fcacd64d0c0186be2f88419024248b8","/index.html":"03e85edaa4d607af682f2e0bf82532faf977fe1001de6648be8a72cddda5d926","/static/js/2.13f53414.chunk.js.LICENSE.txt":"11686a76edbda0a191df6961d1f3062260969f0e968283369585e353242a5d7d","/static/css/main.822674ee.chunk.css":"e7bf9f23b3f9d26c03b78335f09c09e38d55aef8e618f30d1b4f8a05d421e932","/static/css/main.822674ee.chunk.css.map":"732f3bd0eb09fe672e496408e7c7c31072254c1bc7189b1f3cc05e676b6f815f","/static/js/3.2d0b4c3d.chunk.js":"92cab34e531a9547ff3afae37cb78f426466fbfe847fe279544c273e4cf01556","/static/js/3.2d0b4c3d.chunk.js.map":"f1e03d2f09b5c4f380ad294b8378c1c4fa8cac24a5b64ae3afd57a291d1d2039","/static/js/main.668aa8d4.chunk.js":"4d2edf638a78916ada52b795aecb4b2bd703cf9ee59ab69581a28242b097a85a","/static/js/runtime-main.ee0208c3.js":"2f01a6b783bcffc237250c6771dba69e7721facfd4431d4fe6e1426bd059386b","/static/js/runtime-main.ee0208c3.js.map":"5b4490a787a82f75cc5a00779ba6091ee4c5b3308f6a0047839166882dc95882","/static/js/main.668aa8d4.chunk.js.map":"b0f5d387a6552010ba32fb34ec940fa314f5e99d0b8a1f32e9b737e40579d99c","/static/js/2.13f53414.chunk.js":"68ada62ecd4cd66e46f3794b1e04f3f24b666229902d208f3d6a517e86db3aea","/static/js/2.13f53414.chunk.js.map":"81c21d1783665d531e4c9a49e4eae5ed5419327754a2b33b3380ead409c9540f"}}
+[debug] [2022-01-29T18:23:16.457Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/harrier-8decd/versions/cefc6303fa97053c:populateFiles 200
+[debug] [2022-01-29T18:23:16.458Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/harrier-8decd/versions/cefc6303fa97053c:populateFiles {"uploadRequiredHashes":["dc9f059f1ddcb339fba6a5eef4891c1d1fcacd64d0c0186be2f88419024248b8","b0f5d387a6552010ba32fb34ec940fa314f5e99d0b8a1f32e9b737e40579d99c","4d2edf638a78916ada52b795aecb4b2bd703cf9ee59ab69581a28242b097a85a","03e85edaa4d607af682f2e0bf82532faf977fe1001de6648be8a72cddda5d926"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files"}
+[debug] [2022-01-29T18:23:16.460Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/dc9f059f1ddcb339fba6a5eef4891c1d1fcacd64d0c0186be2f88419024248b8 [none]
+[debug] [2022-01-29T18:23:16.460Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/dc9f059f1ddcb339fba6a5eef4891c1d1fcacd64d0c0186be2f88419024248b8 [stream]
+[debug] [2022-01-29T18:23:16.461Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/b0f5d387a6552010ba32fb34ec940fa314f5e99d0b8a1f32e9b737e40579d99c [none]
+[debug] [2022-01-29T18:23:16.461Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/b0f5d387a6552010ba32fb34ec940fa314f5e99d0b8a1f32e9b737e40579d99c [stream]
+[debug] [2022-01-29T18:23:16.462Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/4d2edf638a78916ada52b795aecb4b2bd703cf9ee59ab69581a28242b097a85a [none]
+[debug] [2022-01-29T18:23:16.462Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/4d2edf638a78916ada52b795aecb4b2bd703cf9ee59ab69581a28242b097a85a [stream]
+[debug] [2022-01-29T18:23:16.463Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/03e85edaa4d607af682f2e0bf82532faf977fe1001de6648be8a72cddda5d926 [none]
+[debug] [2022-01-29T18:23:16.463Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/03e85edaa4d607af682f2e0bf82532faf977fe1001de6648be8a72cddda5d926 [stream]
+[debug] [2022-01-29T18:23:16.463Z] [hosting][populate queue][FINAL] {"max":1880,"min":1880,"avg":1880,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1883}
+[debug] [2022-01-29T18:23:16.463Z] [hosting] uploads queued: 4
+[debug] [2022-01-29T18:23:18.229Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/03e85edaa4d607af682f2e0bf82532faf977fe1001de6648be8a72cddda5d926 200
+[debug] [2022-01-29T18:23:18.230Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/03e85edaa4d607af682f2e0bf82532faf977fe1001de6648be8a72cddda5d926 [stream]
+[debug] [2022-01-29T18:23:19.304Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/4d2edf638a78916ada52b795aecb4b2bd703cf9ee59ab69581a28242b097a85a 200
+[debug] [2022-01-29T18:23:19.304Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/4d2edf638a78916ada52b795aecb4b2bd703cf9ee59ab69581a28242b097a85a [stream]
+[debug] [2022-01-29T18:23:19.337Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/dc9f059f1ddcb339fba6a5eef4891c1d1fcacd64d0c0186be2f88419024248b8 200
+[debug] [2022-01-29T18:23:19.337Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/dc9f059f1ddcb339fba6a5eef4891c1d1fcacd64d0c0186be2f88419024248b8 [stream]
+[debug] [2022-01-29T18:23:19.429Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/b0f5d387a6552010ba32fb34ec940fa314f5e99d0b8a1f32e9b737e40579d99c 200
+[debug] [2022-01-29T18:23:19.429Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/harrier-8decd/versions/cefc6303fa97053c/files/b0f5d387a6552010ba32fb34ec940fa314f5e99d0b8a1f32e9b737e40579d99c [stream]
+[debug] [2022-01-29T18:23:19.430Z] [hosting][upload queue][FINAL] {"max":2971,"min":1771,"avg":2616.5,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":2972}
+[info] +  hosting[harrier-8decd]: file upload complete 
+[debug] [2022-01-29T18:23:19.432Z] [hosting] deploy completed after 5109ms
+[debug] [2022-01-29T18:23:19.436Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "harrier-8decd"
+    },
+    "site": "harrier-8decd",
+    "version": "sites/harrier-8decd/versions/cefc6303fa97053c"
+  }
+]
+[info] i  hosting[harrier-8decd]: finalizing version... 
+[debug] [2022-01-29T18:23:19.437Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-29T18:23:19.437Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-29T18:23:19.666Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sat, 29 Jan 2022 18:22:45 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-29T18:23:19.672Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/harrier-8decd/versions/cefc6303fa97053c?updateMask=status  
+ {"status":"FINALIZED"}
