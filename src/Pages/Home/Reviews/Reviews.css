@@ -1,0 +1,44 @@
+.reviews{
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: rgb(114, 146, 73);
+}
+.card {
+    padding: 15px 25px;
+    border: none;
+    box-shadow: -1px 3px 5px #a7a7a7;
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+  }
+  .reviews .card:hover {
+    transform: translateY(-20px);
+  }
+  .reviews .card img {
+    width: 50px !important;
+    border-radius: 50%;
+  }
+  .description {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+  }
+  .active-star {
+    color: #fbc02d;
+    margin-bottom: 8px;
+  }
+  .active-star:hover {
+    color: #f9a825;
+    cursor: pointer;
+  }
+  .profile {
+    padding-top: 10px;
+  }
+  
+  .name {
+    font-weight: 700;
+  }
+  
+  .email {
+    font-size: 0.84rem;
+    font-weight: 600;
+  }

@@ -1,0 +1,38 @@
+.banner{
+    background-image:
+    url(https://t4.ftcdn.net/jpg/02/82/00/75/240_F_282007508_wdCUP7hUMNK1Cuzj7XmOcFmzyzJ0Nnp9.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.banner h6{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(163, 101, 110);
+}
+.banner h1{
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(223, 218, 218);
+}
+.banner h1 span{
+    font-size: 70px;
+}
+.banner p{
+    font-weight: 400;
+font-size: 20px;
+color: rgb(223, 218, 218);
+}
+.btn{
+    background-color: rgb(1, 47, 94);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}.btn:hover{
+    background-color: rgb(243, 141, 141);
+}
+

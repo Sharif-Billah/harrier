@@ -1,0 +1,18 @@
+.parts{
+    background-color: white;
+}
+.parts h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+.parts .container{
+    background-color: thistle;
+    padding:30px 0 ;
+}
+.parts h3{
+    font-weight: 500;
+
+}
+
+

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Battary",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m13670005_Prod_Battery.jpg"
+    },
+    {
+        "name": "Headlight",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m13430018_Prod_Headlight_Bulb.jpg"
+    },
+    {
+        "name": "Brake Pads",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m13600002_Prod_Brake_Pads.jpg"
+    },
+    {
+        "name": "Brake Rotor",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m3490244_prd-Brake-Rotor-Front.jpg"
+    },
+    {
+        "name": "Spark Plug",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m14510002_Prod_Spark_Plug.jpg"
+    },
+    {
+        "name": "Altenator",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m11590001_Prod-Alternator.jpg"
+    },
+    {
+        "name": "Performance Brake Pads / Rotors kit",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m9280002_Prod-Performance_Brake_Pad_Rotor_Kit.jpg"
+    },
+    {
+        "name": "Oil Filter",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m3490263_prd-Oil-Filter.jpg"
+    },
+    {
+        "name": "Shok/Strut-Front",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m12490003_Prod_Shock_Strut_Front.jpg"
+    },
+    {
+        "name": "Starter",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m13600032_Prod_Starter.jpg"
+    },
+    {
+        "name": "Radiator",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m3490290_prd-Radiator.jpg"
+    },
+    {
+        "name": "Air Filter",
+        "img": "https://www.autozone.com/images/MEDIA_ProductCatalog/m11580024_Prod-Air_Filter.jpg"
+    }
+]

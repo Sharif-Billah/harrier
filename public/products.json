@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Aston Martin",
+        "price": "120,000",
+        "description": "The name Aston Martin is derived partly from the name of its founder, Lionel Martin, ",
+        "img": "https://image.freepik.com/free-vector/sporting-car-illustration_104045-1008.jpg"
+    },
+    {
+        "id": 2,
+        "name": "BMW",
+        "price": "150,000",
+        "description": "BMW started its operation in 1912 and was formed by the merger of three German companies.",
+        "img": "https://image.freepik.com/free-photo/generic-black-suv_2227-851.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Cadillac",
+        "price": "120,000",
+        "description": "Cadillac was named after the great French explorer Antoine Laumet de La Mothe, Chevrolet and William C ",
+        "img": "https://unicoderbd.com/theme/html/chaka/assets/images/portfolio/13.png"
+    },
+    {
+        "id": 4,
+        "name": "Chevrolet",
+        "price": "105,000",
+        "description": "Chevrolet, also called Chevy, was founded in 1911 by Louis Chevrolet and William C  Chevrolet and William C",
+        "img": "https://as1.ftcdn.net/v2/jpg/00/72/89/84/1000_F_72898449_UXOSg1AWam2mKqJEvDDC0Cjz7E2IQLDl.jpg"
+    },
+    {
+        "id": 5,
+        "name": " Datsun",
+        "price": "110,000",
+        "description": "Datsun is a Japanese company associated with the production of small and affordable cars.",
+        "img": "https://as1.ftcdn.net/v2/jpg/00/02/27/44/1000_F_2274429_b39OuHwxKLMtlHIoBCi67zMs7UVXm6.jpg"
+    },
+    {
+        "id": 6,
+        "name": " Ferrari",
+        "price": "175,000",
+        "description": "The luxury car brand Ferrari is named after its Italian founder, Enzo Ferrari, who was an official",
+        "img": "https://image.freepik.com/free-vector/sporting-car-illustration_104045-995.jpg"
+    },
+    {
+        "id": 7,
+        "name": " Porsche",
+        "price": "180,000",
+        "description": "The luxury car brand Ferrari is named after its Italian founder, Enzo Ferrari, who was an official  Chevrolet and William C, who was an official",
+        "img": "https://as1.ftcdn.net/v2/jpg/02/96/19/64/1000_F_296196476_W2eJCDad6q6Z86okaKBFMSdHQpf384uV.jpg"
+    },
+    {
+        "id": 8,
+        "name": " Rolls-Royce",
+        "price": "175,000",
+        "description": "The luxury car brand Ferrari is named after its Italian founder, Enzo Ferrari, who was an official",
+        "img": "https://as1.ftcdn.net/v2/jpg/04/26/24/76/1000_F_426247673_xxxhzWk0ySx7FO0sSwc4NVJR2AXKoFLc.jpg"
+    },
+    {
+        "id": 9,
+        "name": " Toyota",
+        "price": "125,000",
+        "description": "The luxury car brand Ferrari is named after its Italian founder, Enzo Ferrari, who was an official",
+        "img": "https://as2.ftcdn.net/v2/jpg/03/65/80/47/1000_F_365804724_8t4pqPw9X01JwE637smxfM6ruWyTAtH8.jpg"
+    },
+    {
+        "id": 10,
+        "name": " Volkswagen",
+        "price": "175,000",
+        "description": "The luxury car brand Ferrari is named after its Italian founder, Enzo Ferrari, who was an official",
+        "img": "https://as2.ftcdn.net/v2/jpg/04/36/60/67/1000_F_436606719_lv24QQPU01G3qQ47copgQfq5Tq57PoB0.jpg"
+    }
+]

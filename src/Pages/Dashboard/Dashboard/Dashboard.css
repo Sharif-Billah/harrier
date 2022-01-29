@@ -1,0 +1,11 @@
+.vertical-nav i{
+    color: #292560 !important;
+font-size: 20px;
+}
+.vertical-nav link{
+    text-align: start;
+}
+.vertical-nav button{
+    color: rgb(56, 37, 37);
+    justify-content: flex-start;
+}
