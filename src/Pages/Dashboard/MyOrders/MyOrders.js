@@ -25,7 +25,7 @@ const MyOrders = () => {
 
     return (
         <div>
-            <h2 className="fw-bold text-bold">ORDERS</h2>
+            <h2 className="fw-bold text-bold">MY ORDERS</h2>
             <TableContainer component={Paper}>
                 <Table sx={{}} aria-label="MY ORDERS ">
                     <TableHead>
